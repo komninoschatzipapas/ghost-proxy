@@ -17,6 +17,6 @@
 			defer
 		}
 	}
-	reverse_proxy ghost-app:2368 {
+	reverse_proxy blog-app:2368 {
 		header_up X-Forwarded-Proto "https"
 	}
