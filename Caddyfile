@@ -1,3 +1,9 @@
+{
+	log {
+		level debug
+	}
+}
+
 :80 {
 	@ghost_nocache {
 		path /ghost/*
